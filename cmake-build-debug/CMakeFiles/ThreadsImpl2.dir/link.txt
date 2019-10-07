@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ThreadsImpl2.dir/main.c.o  -o ThreadsImpl2 
