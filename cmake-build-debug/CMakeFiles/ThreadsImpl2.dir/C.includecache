@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/vivemeno/CLionProjects/ThreadsImpl2/TCB.h
+/home/akhil/CLionProjects/ThreadsImpl2/TCB.h
 ucontext.h
 -
 string.h
-/home/vivemeno/CLionProjects/ThreadsImpl2/string.h
+/home/akhil/CLionProjects/ThreadsImpl2/string.h
 
-/home/vivemeno/CLionProjects/ThreadsImpl2/main.c
+/home/akhil/CLionProjects/ThreadsImpl2/main.c
 stdio.h
 -
 stdlib.h
@@ -20,9 +20,9 @@ stdlib.h
 ucontext.h
 -
 q.h
-/home/vivemeno/CLionProjects/ThreadsImpl2/q.h
+/home/akhil/CLionProjects/ThreadsImpl2/q.h
 
-/home/vivemeno/CLionProjects/ThreadsImpl2/q.h
+/home/akhil/CLionProjects/ThreadsImpl2/q.h
 TCB.h
-/home/vivemeno/CLionProjects/ThreadsImpl2/TCB.h
+/home/akhil/CLionProjects/ThreadsImpl2/TCB.h
 

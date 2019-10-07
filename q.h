@@ -11,25 +11,28 @@ struct TCB_t* newQueue() {
     struct TCB_t *head = NULL;
     return head;
 }
-void AddQueue(struct TCB_t *head, struct TCB_t *item) {
-    if (!head) {
-        head = item;
+void AddQueue(struct TCB_t **head, struct TCB_t *item) {
+    if (!*head) {
+        *head = item;
+        (*head)->prev = *head;
         return;
     }
-    struct TCB_t *lastNode = head->prev;
+    struct TCB_t *lastNode = (*head)->prev;
     lastNode -> next =item;
-    item->next = head;
-    head->prev = item;
+    item->next = *head;
+    (*head)->prev = item;
 //    while (node->next != NULL) {
 ////        node = node ->next;
 ////    }
 }
 
-struct TCB_t* DelQueue(struct TCB_t *head) {
-    struct TCB_t *nodeToReturn = head;
+struct TCB_t* DelQueue(struct TCB_t **head) {
+    struct TCB_t *nodeToReturn = *head;
 
-    struct TCB_t *lastNode = head->prev;
-    head = head->next;
-    lastNode->next = head;
+    struct TCB_t *lastNode = (*head)->prev;
+    *head = (*head)->next;
+    (*head)->prev = lastNode;
+    lastNode->next = (*head);
+
     return nodeToReturn;
 }

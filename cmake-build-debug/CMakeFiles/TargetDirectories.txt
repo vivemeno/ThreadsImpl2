@@ -1,3 +1,3 @@
-/home/vivemeno/CLionProjects/ThreadsImpl2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/vivemeno/CLionProjects/ThreadsImpl2/cmake-build-debug/CMakeFiles/ThreadsImpl2.dir
-/home/vivemeno/CLionProjects/ThreadsImpl2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/akhil/CLionProjects/ThreadsImpl2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/akhil/CLionProjects/ThreadsImpl2/cmake-build-debug/CMakeFiles/ThreadsImpl2.dir
+/home/akhil/CLionProjects/ThreadsImpl2/cmake-build-debug/CMakeFiles/edit_cache.dir

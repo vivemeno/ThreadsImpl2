@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ThreadsImpl2.dir/main.c.o"
-  "ThreadsImpl2"
   "ThreadsImpl2.pdb"
+  "ThreadsImpl2"
 )
 
 # Per-language clean rules from dependency scanning.

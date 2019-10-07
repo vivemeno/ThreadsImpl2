@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/ThreadsImpl2.dir/main.c.o  -o ThreadsImpl2 
+/usr/bin/cc -g  -rdynamic CMakeFiles/ThreadsImpl2.dir/main.c.o  -o ThreadsImpl2 
